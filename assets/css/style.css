@@ -114,14 +114,18 @@ section {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #272829;
+    /* color: #272829; */
+    color: #fff;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
+    background-color: #98c8f6;
+    border-radius: 10px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-all {
-    color: #0563bb;
+    color: #ffffff;
+    background-color: #205282;
 }
 
 .portfolio #portfolio-flters li:last-child {
